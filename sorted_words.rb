@@ -19,7 +19,7 @@ while word != ""
   
 end
 
-wordList.sort!
+wordList.sort! # sort the words and changet the array so I don't have to make a new arraw
 
 for i in wordList
   puts i

@@ -2,7 +2,7 @@
 
 def add_up(number)
   total = 0 # pre intitalize the number (is this needed?)
-  for i in 1..number
+  for i in 1..number # from 1 to tne requested number
     total = total + i
   end
   return total
