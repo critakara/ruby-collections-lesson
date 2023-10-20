@@ -16,11 +16,12 @@ puts "" # add an extra newline at the end just to clean up the look
 # if not move on
 
 for i in yearStart..yearEnd
-  if i % 4 == 0 && i % 100 != 0
+  if i % 4 == 0 && i % 100 != 0 # all years divisible by 4 but not 100
     puts i
-  elsif i % 400 == 0
+  elsif i % 400 == 0 # checks if it is divisible by 400 afterwards
     puts i
   else
+    # nothing here because the else case is to not do anythingx
   end
 end
 
