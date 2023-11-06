@@ -15,14 +15,9 @@ word = gets.chomp # get the word in
 while word != ""
   wordList.push(word)
   puts "Please enter a word or press enter to sort"
-  word = gets.chomp
-  
+  word = gets.chomp  
 end
 
-wordList.sort! # sort the words and changet the array so I don't have to make a new arraw
-
-for i in wordList
-  puts i
-end
+print wordList.sort # sort the words and changet the array so I don't have to make a new array and also print it
 
 
