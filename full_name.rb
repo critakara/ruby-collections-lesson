@@ -14,6 +14,4 @@ puts "What is your last name?"
 lastName = gets.chomp # get the last name
 fullName.push(lastName)
 
-for i in fullName 
-  print i + " " # prints the name, how to not have a trailing space at the end?
-end
+puts fullName[0] + " " + fullName[1] + " " + fullName[2]
